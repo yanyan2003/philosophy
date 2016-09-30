@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 52px;
+  font-family: cursive;
+}
+
+.button {
+  margin: 12px
+}

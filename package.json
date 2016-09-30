@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "knex": "^0.12.2",
+    "material-ui": "^0.15.4",
+    "react-scripts": "0.6.1",
+    "react-tap-event-plugin": "^1.0.0",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1",
+    "sqlite3": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "postinstall": "node createDb",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
